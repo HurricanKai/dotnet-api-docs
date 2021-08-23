@@ -12097,7 +12097,7 @@ callvirt m
   
 4.  The result is pushed onto the stack.  
   
- The `shr.un` instruction shifts the value (type `int32`, `int64` or `native int`) right by the specified number of bits. The number of bits is a value of type `int32` or `native int`. The return value is unspecified if the number of bits to be shifted is greater than or equal to the width (in bits) of the supplied value.  
+ The `shr` instruction shifts the value (type `int32`, `int64` or `native int`) right by the specified number of bits. The number of bits is a value of type `int32` or `native int`. The return value is unspecified if the number of bits to be shifted is greater than or equal to the width (in bits) of the supplied value.  
   
  `Shr` replicates the high order bit on each shift, preserving the sign of the original value in the `result`.  
   
